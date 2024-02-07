@@ -68,4 +68,3 @@ class Square:
         for _ in range(self.__size):
             square_str += " " * self.__position[0] + "#" * self.__size + "\n"
         return square_str
-
