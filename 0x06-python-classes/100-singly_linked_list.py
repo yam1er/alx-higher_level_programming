@@ -5,7 +5,7 @@
 class Node:
     """Represent a node in a SLL"""
 
-    def __int__(self, data, next_node=Node):
+    def __init__(self, data, next_node=None):
         """Initialize a new Node
 
         Args:
