@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Defines a Rectangle"""
+"""Defines a Rectangle class."""
 
 
 class Rectangle:
-    """Represent a rectangle"""
+    """Represent a rectangle."""
 
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle.
@@ -65,3 +65,9 @@ class Rectangle:
             if i != self.__height - 1:
                 rect.append("\n")
         return ("".join(rect))
+
+    def __repr__(self):
+        """Return the string representation of the Rectangle."""
+        rect = "Rectangle(" + str(self.__width)
+        rect += ", " + str(self.__height) + ")"
+        return (rect)
