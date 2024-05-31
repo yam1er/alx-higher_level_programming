@@ -3,7 +3,7 @@
 
 
 def find_peak(list_of_integers):
-
+    """Return a peak in a list of unsorted integers."""
     # Get the length of the list
     length = len(list_of_integers)
 
